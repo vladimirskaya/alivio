@@ -30,11 +30,6 @@
     color: #01996D;
 }
 
-.header-login a {
-    color: #0000;
-    transition: color 0.2s ease;
-}
-
 .header-login {
     display: flex;
     align-items: center;
@@ -45,7 +40,12 @@
     margin-left: 35px;
 }
 
-.header-login a {
+.header-login-link {
+    /* color: #0000; */
+    transition: color 0.2s ease;
+}
+
+.header-login-link:hover {
     color: #01996D;
 }
 
